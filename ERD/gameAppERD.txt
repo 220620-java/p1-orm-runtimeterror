@@ -1,0 +1,56 @@
+Game App ERD
+
+users: (change name of table to players?)
+   id - pk int
+   name - varchar
+   username - varchar
+   password - varchar
+   characters - arrayList
+
+characters
+   id - pk int
+   name - varchar
+   eye_color - varchar
+   hair_color - varchar
+   height - int
+   type - references type id from character types table
+   user id - references id from user table
+
+character types (include beginning health, skills?)
+   apothecary
+   archer
+   assassin
+   bandit
+   barbarian
+   bard
+   beggar
+   blacksmith
+   blade
+   child
+   citizen
+   conjurer
+   enchanter
+   farmer
+   guard
+   healer
+   imperial soldier
+   lumberjack
+   mage
+   miner
+   monk
+   necromancer
+   nightblade
+   nord hero
+   orc guard
+   preist
+   prisoner
+   ranger
+   rouge
+   scout
+   soldier
+   sorcerer
+   spellsword
+   thief
+   vampire
+   vigilant
+   warrior
