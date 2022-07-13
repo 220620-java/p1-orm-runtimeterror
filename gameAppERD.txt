@@ -21,35 +21,22 @@ characters
    type - references type id from character types table
    user id - references id from user table
 
-character types (columns: beginning health, skill1, skill2, skill3)
+character types (columns: beginning health, skill1, skill1damage, skill2, skill2damage)
    apothecary
    archer
    assassin
    bandit
-   barbarian
    bard
-   beggar
    blacksmith
    blade
-   child
-   citizen
-   conjurer
-   enchanter
    farmer
    guard
    healer
-   imperial soldier
-   lumberjack
    mage
    miner
    monk
    necromancer
-   nightblade
-   nord hero
-   orc guard
    preist
-   prisoner
-   ranger
    rouge
    scout
    soldier
@@ -59,3 +46,4 @@ character types (columns: beginning health, skill1, skill2, skill3)
    vampire
    vigilant
    warrior
+
