@@ -11,8 +11,7 @@ public class User {
     private List<Account> accounts;
     private String password1;
 
-
-    //------------------------ classes -----------------------
+    //------------------ classes -----------------------
     public User (){
         super();
         this.id = 0;
