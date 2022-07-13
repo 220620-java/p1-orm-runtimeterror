@@ -9,12 +9,15 @@ users: (change name of table to players?)
 characters
    id - pk int
    name - varchar
+   gender - varchar 
    eye_color - varchar
    hair_color - varchar
    shirt_color - varchar
    pant_color - varchar
    height - int
    age - int
+   level - int - default: 1
+   health - int - type beginning health + level*5
    type - references type id from character types table
    user id - references id from user table
 
