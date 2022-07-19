@@ -22,7 +22,6 @@ characters
    user id - references id from user table
 
 character types (columns: beginning health, skill1, skill1damage, skill2, skill2damage)
-   apothecary
    archer
    assassin
    bandit
