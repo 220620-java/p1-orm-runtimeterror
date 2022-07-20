@@ -2,7 +2,7 @@ package com.revature.orm;
 
 import java.sql.SQLException;
 import java.util.List;
-
+//comment for push
 public interface ORMQuery<T> {
 	/**
 	 * Retrieves an object by the primary key column.
